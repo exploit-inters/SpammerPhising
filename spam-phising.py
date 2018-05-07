@@ -14,6 +14,8 @@ def auto():
 		except KeyboardInterrupt:
 			print '\nTools spammer phising stoped'
 			exit()
+		except:
+			print ''; print '\033[91mConection Time Out! Progam Stoped\033[0m'; exit()
 
 def manual():
 	for x in range(1000):
@@ -30,6 +32,8 @@ def manual():
 		except KeyboardInterrupt:
 			print '\nTools spammer phising stoped'
 			exit()
+		except:
+			print ''; print '\033[91mConection Time Out! Progam Stoped\033[0m'; exit()
 
 print '''\033[94m
 		\_   _/
